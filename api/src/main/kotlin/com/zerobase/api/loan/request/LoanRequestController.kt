@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/fintech/api/v1")
-class LoeanRequestController(
+class LoanRequestController(
     private val loanRequestServiceImpl: LoanRequestServiceImpl
 ) {
 

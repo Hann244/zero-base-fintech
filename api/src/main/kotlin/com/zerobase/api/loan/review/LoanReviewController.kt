@@ -11,10 +11,9 @@ import org.springframework.web.bind.annotation.RestController
 class LoanReviewController(
     private val loanReviewServiceImpl: LoanReviewServiceImpl
 ) {
-
-    @GetMapping("/review/{userKey}")
+    @GetMapping("review/{userKey}")
     fun getReviewData(
-        @PathVariable userKey: String,
+        @PathVariable userKey: String
     ): ResponseEntity<LoanReviewDto.LoanReviewResponseDto> {
         return ResponseEntity.ok(
             loanReviewServiceImpl.loanReviewMain(userKey)

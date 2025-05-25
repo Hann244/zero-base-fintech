@@ -1,4 +1,4 @@
-package com.zerobase.com.zerobase.kafka.config
+package com.zerobase.kafka.config
 
 import org.apache.kafka.clients.consumer.ConsumerConfig
 import org.apache.kafka.clients.producer.ProducerConfig

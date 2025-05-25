@@ -1,7 +1,7 @@
 package com.zerobase.com.zerobase.consumer.service
 
 import com.zerobase.com.zerobase.consumer.dto.ReviewResponseDto
-import com.zerobase.com.zerobase.kafka.dto.LoanRequestDto
+import com.zerobase.kafka.dto.LoanRequestDto
 import com.zerobase.domain.domain.LoanReview
 import com.zerobase.domain.repository.LoanReviewRepository
 import org.springframework.boot.web.client.RestTemplateBuilder
@@ -14,7 +14,7 @@ class LoanRequestService(
     private val loanReviewRepository: LoanReviewRepository
 ) {
     companion object {
-        const val cssUrl = "http://nginx:8085/css/api/v1/request"
+        const val cssUrl = "http://localhost:8081/css/api/v1/request"
     }
 
     fun loanRequest(loanRequestDto: LoanRequestDto) {

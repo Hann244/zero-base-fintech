@@ -2,8 +2,8 @@ package com.zerobase.api.loan.request
 
 import com.zerobase.api.loan.GenerateKey
 import com.zerobase.api.loan.encrypt.EncryptComponent
-import com.zerobase.com.zerobase.kafka.enum.KafkaTopic
-import com.zerobase.com.zerobase.kafka.producer.LoanRequestSender
+import com.zerobase.kafka.enum.KafkaTopic
+import com.zerobase.kafka.producer.LoanRequestSender
 import com.zerobase.domain.domain.UserInfo
 import com.zerobase.domain.repository.UserInfoRepository
 import org.springframework.stereotype.Service

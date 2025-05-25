@@ -1,4 +1,4 @@
-package com.zerobase.com.zerobase.kafka.dto
+package com.zerobase.kafka.dto
 
 data class LoanRequestDto(
     val userKey: String,

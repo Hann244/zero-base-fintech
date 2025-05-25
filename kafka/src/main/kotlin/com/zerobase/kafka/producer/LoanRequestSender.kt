@@ -1,8 +1,8 @@
-package com.zerobase.com.zerobase.kafka.producer
+package com.zerobase.kafka.producer
 
 import com.fasterxml.jackson.databind.ObjectMapper
-import com.zerobase.com.zerobase.kafka.dto.LoanRequestDto
-import com.zerobase.com.zerobase.kafka.enum.KafkaTopic
+import com.zerobase.kafka.dto.LoanRequestDto
+import com.zerobase.kafka.enum.KafkaTopic
 import org.springframework.kafka.core.KafkaTemplate
 import org.springframework.stereotype.Component
 

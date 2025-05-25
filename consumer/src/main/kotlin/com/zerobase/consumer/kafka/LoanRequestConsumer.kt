@@ -2,7 +2,7 @@ package com.zerobase.com.zerobase.consumer.kafka
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.zerobase.com.zerobase.consumer.service.LoanRequestService
-import com.zerobase.com.zerobase.kafka.dto.LoanRequestDto
+import com.zerobase.kafka.dto.LoanRequestDto
 import org.springframework.kafka.annotation.KafkaListener
 import org.springframework.stereotype.Service
 
